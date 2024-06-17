@@ -2,8 +2,8 @@
 
 Notes on [SonarQube Community Edition](https://www.sonarqube.org/downloads/) as a docker deployment orchestrated by Docker Compose.
 
-- Use the LTS version of SonarQube (v8.9)
-- Use PostgreSQL as the database (v14)
+- Use the latest version of SonarQube
+- Use PostgreSQL as the database (v15)
 - Use Nginx as the web server (v1)
 - Include self-signed SSL certificate ([Let's Encrypt localhost](https://letsencrypt.org/docs/certificates-for-localhost/) format)
 
@@ -26,7 +26,7 @@ Notes on [SonarQube Community Edition](https://www.sonarqube.org/downloads/) as 
 
 ## <a name="overview"></a>Overview
 
-Details for the installation and usage of the Docker based SonarQube image. 
+Details for the installation and usage of the Docker-based SonarQube image. 
 
 - Ref: [https://hub.docker.com/_/sonarqube/](https://hub.docker.com/_/sonarqube/)
 
